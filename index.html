@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LION-Coder</title>
+    <!-- Favicon  -->
+    <link rel="shortcut icon" href="img/favicon2.png" type="image/x-icon">
+    <!-- Fuentes de Google font  -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" /> 
+    <!-- Estilos de Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Scroll JS Reveals  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- css custom  -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <!-- Inicio de Navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="img/logo2.png" width="250px" alt="logoAzul"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav nav ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Proyectos.html">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Mi_Blog.html">Mi blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Fín del Navbar  -->
+      <!-- Slider  -->
+
+      <section class="home">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+         <div class="carousel-controls"> 
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-image:url('./img/6.jpg')"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style="background-image:url('./img/3.jpg')"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" style="background-image:url('./img/5.jpg')"></button>
+                <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4" style="background-image:url('img/tres.jpg')"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5" style="background-image:url('img/tres.jpg')"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6" style="background-image:url('img/tres.jpg')"></button> -->
+                </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <img src="img/arrow-left-svgrepo-com.svg" alt="Prev">
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <img src="img/arrow-right-svgrepo-com.svg" alt="Next">
+                
+            </button>
+        </div>  
+            <div class="carousel-inner">
+              <div class="carousel-item active" style="background-image:url('./img/6.jpg')">
+                <div class="container">
+                    <h2>Creación de páginas web</h2>
+                    <p>lo hacemos a tu medida!</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="background-image:url('./img/3.jpg')">
+                <div class="container">
+                    <h2>Creación de contenido</h2>
+                    <p>Te acercamos más a tus clientes</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="background-image:url('./img/5.jpg')">
+                <div class="container">
+                    <h2>Posicionamiento</h2>
+                    <p>Alcanzando siempre los primeros lugares...</p>
+                </div>
+              </div>
+             </div>              
+            </div>            
+          </div>
+    </section>
+    <!-- Fín del Slider  -->
+        <!-- About-->
+        <section class="page-section " id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">Te conectamos con tus clientes!</h2>
+                        <hr class="divider divider-light" />
+                        <p class="text-white-75 mb-4">Empieza ahora en nuestra plataforma</p>
+                        <a class="btn btn-light btn-xl" href="servicios.html">Saber más...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer-->
+        <footer class="bg-dark py-5">
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2021 - Sergio Quintero</div></div>
+        </footer>
+    
+    <!-- scrip bootstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>

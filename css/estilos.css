@@ -1,0 +1,206 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+h2,hr,p{
+    color: blanchedalmond;
+}
+
+
+.home .carousel-item{
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+
+}
+.home .carousel-item:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(40, 39, 39, 0.419);
+    z-index: -1;
+
+}
+.home .carousel-item .container{
+    /* background: blue; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.home .carousel-item h2{
+    font-size: 80px;
+    color: #ffffff;
+    margin: 0 0 10px;
+    opacity: 0;
+
+}
+
+.home .carousel-item p{
+    font-size: 30px;
+    color: #eeeeee;
+    margin: 0;
+    opacity: 0;
+}
+.home .carousel-item.active h2{
+    animation: fadeInLeft 0.5s ease forwards;
+}
+.home .carousel-item.active p{
+    animation: fadeInRight 0.5s ease forwards;
+}
+
+@keyframes fadeInLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes fadeInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.home .carousel-controls{
+    /* background-color: red; */
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    z-index: 10;
+    transform: translateX(-50%);
+
+}
+
+.home .carousel-indicators{
+    position: relative;
+    margin: 0;
+
+}
+.home .carousel-indicators button{
+    height: 70px;
+    width: 70px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid transparent;
+    transition: all 0.3s ease;
+}
+.home .carousel-indicators button.active{
+    border-color: #ffffff;
+}
+
+.home .carousel-control-next,
+.home .carousel-control-prev{
+    height: 60px;
+    width: 60px;
+    /* background-color:red; */
+    opacity: 1;
+    z-index: 3;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+.home .carousel-control-next:hover,
+.home .carousel-control-prev:hover{
+    box-shadow: 0 0 10px #ffffff;
+}
+
+
+
+.home .carousel-control-next img,
+.home .carousel-control-prev img{
+    width: 40px;
+    
+}
+
+.home .carousel-control-next{
+    right: -90px;
+}
+.home .carousel-control-prev{
+    left: -90px;
+}
+
+/* responsive  */
+
+@media(max-width: 767px){
+    .home .carousel-control-next,
+    .home .carousel-control-prev{
+        display:none;
+    }
+    .home .carousel-indicators button{
+        height: 60px;
+        width: 60px;
+    }
+    .home .carousel-item h2{
+        font-size: 45px;
+    }
+    .home .carousel-item p{
+        font-size: 22px;
+    }
+}
+
+#separador{
+    background: #f1f1f1;
+    padding: 50px 0 30px 0;
+    text-align: center;
+}
+
+.card{
+    margin:10px;
+}
+#galeria .col-lg-4{
+    margin: 0 !important;
+    padding: 25px;
+}
+#galeria img{
+    width: 100%;
+    height: 250px;
+}
+#galeria img:hover{
+    border: 5px solid #f7f7f7;
+}
+.btn-primary{
+    margin-left: 69px;
+}
+.btn{
+    border-radius: 20px;
+    background: rgba(181, 178, 178, 0.933);
+    color: black;
+}
+
+/* fin slider  */
+
+.page-section {
+    padding: 8rem 0;
+    background: #043846;
+    
+  }
+
+
+  /* cambios en formulario */
+  .celular-form{
+      color: blanchedalmond;
+
+  }
+
+
+  /* servicios  */
+
+  
+  

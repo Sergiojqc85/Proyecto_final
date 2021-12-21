@@ -1,0 +1,109 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    min-height: 100vh;
+    background-image: linear-gradient(-45deg, #e3ddd9 50%, #043846 50%);
+    font-family: 'Raleway', sans-serif;
+}
+
+.container .carousel h2{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+/* navbar  */
+
+
+.nav-wrapper img{
+    width: 200px;
+    height: 50px;
+    margin-top: 6px;
+
+}
+
+
+/* fin de navbar  */
+
+.titulo {
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.subtitulo {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    display: inline;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: black;
+    width: 100%;
+}
+
+
+
+.linea-division {
+    width: 80%;
+    height: 2px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+/* Estilos Materialized  */
+
+.carousel{
+    min-width: 500px;
+    height: 500px;
+    
+}
+.carousel .carousel-item{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    /* background: #ccc; */
+    width: 450px;
+    height: 450px;
+}
+
+.carousel .carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 15px;
+    
+    
+}
+.btn-buttom{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    margin-top: 20px;
+    width: 140px;
+    height: 45px;
+    border-top: 47px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.761);
+    color: #fff;
+    font-size: 21px;
+    border: none;
+
+}
+
+.carousel .indicators .indicators-item{
+    margin: 0 15px;
+    background: #000;
+}
